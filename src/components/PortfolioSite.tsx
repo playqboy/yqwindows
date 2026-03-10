@@ -633,7 +633,7 @@ const PortfolioSite: React.FC<PortfolioSiteProps> = ({ onClose }) => {
                   <TechTag>JavaScript</TechTag>
                 </ProjectTech>
               </ProjectCard>
-              <ProjectCard className="cursor-target" href="https://wallets.spot" target="_blank" rel="noopener noreferrer" $tooltip="core contributor">
+              <ProjectCard className="cursor-target" href="https://wallets.spot" target="_blank" rel="noopener noreferrer" $tooltip="coded start to finish">
                 <ProjectRole>Core</ProjectRole>
                 <GeistProjectName>wallets.spot</GeistProjectName>
                 <ProjectDesc>Unified portfolio tracker across Solana, EVM, and Hyperliquid — coded start to finish</ProjectDesc>
