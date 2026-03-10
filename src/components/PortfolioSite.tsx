@@ -650,7 +650,7 @@ const PortfolioSite: React.FC<PortfolioSiteProps> = ({ onClose }) => {
                   <TechTag>TypeScript</TechTag>
                 </ProjectTech>
               </ProjectCard>
-              <ProjectCard as="div" className="cursor-target" style={{ cursor: 'default', overflow: 'hidden', background: '#000', borderColor: '#333' }} $tooltip="REDACTED">
+              <ProjectCard as="div" className="cursor-target" style={{ cursor: 'default', background: '#000', borderColor: '#333' }} $tooltip="REDACTED">
                 <div style={{ position: 'relative', width: '100%', height: '60px', marginBottom: '8px' }}>
                   <ASCIIText
                     text="temporarily redacted"
