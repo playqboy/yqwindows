@@ -91,6 +91,7 @@ const COMMANDS: Record<string, string[]> = {
   ],
   'ls contributions': [
     'drwxr-xr-x  quanto/          x.com/quanto',
+    'drwxr-xr-x  wallets.spot/    wallets.spot',
     'drwxr-xr-x  boomish/         boomish.org',
   ],
   'cat skills.txt': [

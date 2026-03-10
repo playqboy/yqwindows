@@ -239,6 +239,12 @@ const ProjectName = styled.h3`
   color: #111;
 `;
 
+const GeistProjectName = styled(ProjectName)`
+  font-family: 'Geist', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+`;
+
 const ProjectDesc = styled.p`
   font-size: 14px;
   color: #777;
@@ -625,6 +631,15 @@ const PortfolioSite: React.FC<PortfolioSiteProps> = ({ onClose }) => {
                   <TechTag>Ruby</TechTag>
                   <TechTag>TypeScript</TechTag>
                   <TechTag>JavaScript</TechTag>
+                </ProjectTech>
+              </ProjectCard>
+              <ProjectCard className="cursor-target" href="https://wallets.spot" target="_blank" rel="noopener noreferrer" $tooltip="core contributor">
+                <ProjectRole>Core</ProjectRole>
+                <GeistProjectName>wallets.spot</GeistProjectName>
+                <ProjectDesc>Unified portfolio tracker across Solana, EVM, and Hyperliquid — coded start to finish</ProjectDesc>
+                <ProjectTech>
+                  <TechTag>TypeScript</TechTag>
+                  <TechTag>Rust</TechTag>
                 </ProjectTech>
               </ProjectCard>
               <ProjectCard className="cursor-target" href="https://boomish.org" target="_blank" rel="noopener noreferrer" $tooltip="core author">
