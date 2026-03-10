@@ -3,7 +3,7 @@ import StyledComponentsRegistry from './registry';
 
 export const metadata: Metadata = {
   title: 'yq.je',
-  description: 'Windows 95 themed portfolio',
+  description: 'yoaquim full portfolio',
   icons: {
     icon: '/favicon.ico',
     apple: '/logo192.png',
