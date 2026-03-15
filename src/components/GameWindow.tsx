@@ -248,7 +248,7 @@ var Block = (function() {
       this.color = new THREE.Color(r / 255, g / 255, b / 255);
     }
     this.state = this.index > 1 ? this.STATES.ACTIVE : this.STATES.STOPPED;
-    this.speed = -0.3 - (this.index * 0.01);
+    this.speed = -0.2 - (this.index * 0.01);
     if (this.speed < -4) this.speed = -4;
     this.direction = this.speed;
     var geometry = new THREE.BoxGeometry(this.dimension.width, this.dimension.height, this.dimension.depth);
