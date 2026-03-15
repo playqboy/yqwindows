@@ -80,7 +80,7 @@ const COMMANDS: Record<string, string[]> = {
     '  whoami        — about me',
     '  ls contributions   — view my work',
     '  cat skills.txt — technical skills',
-    '  npm start     — launch portfolio site',
+    '  npm run start — launch portfolio site',
     '  contact       — get in touch',
     '  clear         — clear terminal',
   ],
@@ -155,7 +155,7 @@ const TerminalWindow: React.FC<TerminalWindowProps> = ({
         return;
       }
 
-      if (trimmed === 'npm start') {
+      if (trimmed === 'npm run start') {
         addLines([
           { text: '' },
           { text: '> portfolio@1.0.0 start' },

@@ -113,7 +113,6 @@ const HeroTagline = styled.p`
   line-height: 1.7;
   color: #555;
   margin: 0 0 24px 0;
-  max-width: 560px;
   font-weight: 300;
 
   @media (max-width: 600px) {
@@ -181,7 +180,7 @@ const ProjectCard = styled.a<{ $tooltip?: string }>`
   position: relative;
   padding: 24px;
   border: 1px solid #e8e8e8;
-  border-radius: 8px;
+  border-radius: 0;
   text-decoration: none;
   color: inherit;
   transition: all 0.2s;
@@ -229,7 +228,7 @@ const ProjectRole = styled.span`
   background: #fff;
   border: 1px solid #e8e8e8;
   padding: 2px 8px;
-  border-radius: 4px;
+  border-radius: 0;
 `;
 
 const ProjectName = styled.h3`
@@ -264,7 +263,7 @@ const TechTag = styled.span`
   color: #999;
   background: #f5f5f5;
   padding: 2px 8px;
-  border-radius: 3px;
+  border-radius: 0;
 `;
 
 const SkillsGrid = styled.div`
@@ -711,7 +710,7 @@ const PortfolioSite: React.FC<PortfolioSiteProps> = ({ onClose }) => {
           </ContactSection>
         </Section>
 
-        <Footer>built with coffee and curiosity</Footer>
+        <Footer>built with coffee and cigarettes</Footer>
       </Container>
 
       {showTxt && (
